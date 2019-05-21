@@ -11,7 +11,7 @@
   "export": {
     "include": "TLC5958"
   },
-  "frameworks": "arduino",
+  "frameworks": "*",
   "platforms": "*",
   "repository": {
     "type": "git",
