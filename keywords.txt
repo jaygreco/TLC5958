@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For TLC5958
+####################################### 
+# Class
+#######################################
+
+TLC5958 KEYWORD1
+
+#######################################
+# Methods and Functions 
+####################################### 
+
+setTZOffset         KEYWORD2
+begin               KEYWORD2
+bind                KEYWORD2
+vsync               KEYWORD2
+send_gs_data        KEYWORD2
+configure_FC1       KEYWORD2
+configure_FC2       KEYWORD2
+send_gs_clk         KEYWORD2
+fill                KEYWORD2
+set_led             KEYWORD2
+map_row_handler     KEYWORD2
+map_gpio_handler    KEYWORD2
+set_index_map       KEYWORD2
+set_pins            KEYWORD2
+get_buffer          KEYWORD2
+
+#######################################
+# Constants
+#######################################
+
+ADDR_FC1    LITERAL1
+ADDR_FC2    LITERAL1
