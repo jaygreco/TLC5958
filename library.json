@@ -2,11 +2,19 @@
   "name": "TLC5958",
   "keywords": "LED, TLC5958, driver, display",
   "description": "TI TLC5958 LED Driver",
-  "repository":
-  {
-    "type": "git",
-    "url": "https://github.com/jaygreco/TLC5958.git"
+  "authors": {
+    "name": "Jay Greco",
+    "url": "https://github.com/jaygreco/TLC5958"
+  },
+  "version": "1.0.0",
+  "downloadUrl": "https://github.com/jaygreco/TLC5958/archive/master.zip",
+  "export": {
+    "include": "TLC5958"
   },
   "frameworks": "arduino",
-  "platforms": "*"
+  "platforms": "*",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaygreco/TLC5958.git"
+  }
 }
