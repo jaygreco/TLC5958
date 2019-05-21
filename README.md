@@ -1,7 +1,10 @@
 # TLC5958
 C++/Arduino driver for [TI TLC5958x multiplexed LED driver](https://www.ti.com/product/TLC5958)
+
 Designed to be Arduino-compatible, but is written to be platform agnostic. All required hardware I/O and timing functions are impmlemented generically, or are mapped with function pointers.
+
 Includes support for index mapping, so hardware that uses channels out-of-order can be remapped in software with very low overhead at the library level.
+
 Supports TLC5958, TLC59581, and TLC59582 out of the box. Tested with a Teensy 3.6 running at 240MHz overclock, driving 64 LEDS in a 16x4 mulitplexed arrangement.
 
 ## How to use
